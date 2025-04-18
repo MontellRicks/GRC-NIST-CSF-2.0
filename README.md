@@ -34,15 +34,15 @@ A Current Profile specifies the Core outcomes that an organization is currently 
 **Oscorp’s current profile is identified as Tier 1: Partial.**
 |Tier           | Cybersecurity Risk Governance      | Cybersecurity Risk Management
 |---------------|------------------------------------|------------------------------
-|Tier 1: Partial | Application of the organizational cybersecurity risk strategy is managed in an ad hoc manner. Prioritization is ad hoc and not formally based on objectives or threat environment. | There is limited awareness of cybersecurity risks at the organizational level. The organization implements cybersecurity risk management on an irregular, case-by-case basis. The organization may not have processes that enable cybersecurity information to be shared within the organization. The organization is generally unaware of the cybersecurity risks associated with its suppliers and the products and services it acquires and uses. 
+|Tier 1: Partial | The organization handles its cybersecurity risk strategy in an informal and reactive way. Risk prioritization lacks consistency and is not clearly tied to defined objectives or the current threat landscape. Awareness of cybersecurity risks across the organization is minimal, and risk management activities are performed sporadically or only in response to specific incidents. There may be no established processes for sharing cybersecurity information internally. Additionally, the organization typically lacks visibility into the cybersecurity risks posed by its vendors, suppliers, and the products or services it relies on. 
  
-A Target Profile specifies the desired outcomes that an organization has selected and prioritized for achieving its cybersecurity risk management objectives. It considers anticipated changes to the organization’s cybersecurity posture, such as new requirements, new technology adoption, and threat intelligence trends. 
+A Target Profile outlines the specific cybersecurity outcomes an organization aims to achieve based on its risk management priorities. It takes into account expected shifts in the organization’s security landscape, including evolving requirements, the integration of new technologies, and emerging threat intelligence patterns.
 
 **Target profile for Oscorp: Tier 4:**
 
 |Tier           | Cybersecurity Risk Governance                                                    | Cybersecurity Risk Management
 |---------------|----------------------------------------------------------------------------------|------------------------------
-|Tier 4: Adaptive | There is an organization-wide approach to managing cybersecurity risks that uses risk-informed policies, processes, and procedures to address potential cybersecurity events. The relationship between cybersecurity risks and organizational objectives is clearly understood and considered when making decisions. Executives monitor cybersecurity risks in the same context as financial and other organizational risks. The organizational budget is based on an understanding of the current and predicted risk environment and risk tolerance. Business units implement executive vision and analyze system-level risks in the context of the organizational risk tolerances. Cybersecurity risk management is part of the organizational culture. It evolves from an awareness of previous activities and continuous awareness of activities on organizational systems and networks. The organization can quickly and efficiently account for changes to business/mission objectives in how risk is approached and communicated. | The organization adapts its cybersecurity practices based on previous and current cybersecurity activities, including lessons learned and predictive indicators. Through a process of continuous improvement that incorporates advanced cybersecurity technologies and practices, the organization actively adapts to a changing technological landscape and responds in a timely and effective manner to evolving, sophisticated threats. The organization uses real-time or near real-time information to understand and consistently act upon the cybersecurity risks associated with its suppliers and the products and services it acquires and uses. Cybersecurity information is constantly shared throughout the organization and with authorized third parties.
+|Tier 4: Adaptive | The organization adopts a comprehensive, enterprise-wide approach to managing cybersecurity risk, guided by risk-informed policies, procedures, and practices designed to address potential cyber threats. Cybersecurity risks are clearly aligned with organizational goals and are factored into decision-making processes. Executive leadership evaluates cybersecurity risks alongside financial and operational risks. Budget planning reflects both current and anticipated risk conditions, as well as the organization's tolerance for risk. Business units translate executive guidance into action by assessing system-level risks within the broader organizational risk framework. Cybersecurity risk management is embedded into the organizational culture, driven by lessons learned and ongoing monitoring of system and network activities. The organization is also agile in adjusting its risk posture to align with evolving business or mission priorities. | The organization continuously evolves its cybersecurity approach by leveraging insights from past incidents, current trends, and predictive analysis. It embraces a cycle of ongoing improvement, integrating cutting-edge technologies and best practices to stay ahead of emerging threats. By using real-time or near real-time data, the organization maintains a clear understanding of cybersecurity risks related to its vendors, products, and services—and takes consistent action to mitigate them. Cybersecurity intelligence is regularly communicated across internal teams and with approved external partners to ensure a coordinated and informed response.
 
 At all times the question should be asked whether data is kept *Confidential*, its *Integrity* is upheld, and is readily *Available* and what risks and vulnerabilities present a danger to this ‘[CIA Triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)’. 
 
@@ -60,9 +60,7 @@ manager.
 
 **Oscorp Current Cyber Security Controls:**
 - Organisational governance:
-  - CEO has a clear business strategy for the business. However, roles and
-responsibilities for cybersecurity haven’t been defined. They’re assigned to
-the IT team. There is no cybersecurity strategy.
+  - The CEO has established a clear business strategy, but the organization lacks a defined cybersecurity strategy. Responsibilities for cybersecurity have not been formally assigned and are defaulted to the IT team without clear role delineation or strategic oversight.
 
 - Asset Management:
   - The IT team has a spreadsheet with serial numbers of laptops.
@@ -338,11 +336,11 @@ Analyze, test and update incident response plans continuously.
 
 ### Communications:
 
-Coordinate restoration activities with internal and external parties, such as coordinating centers, Internet Service Providers, owners of attacking systems, victims, other CSIRTs and vendors. Consider need for reputational damage mitigation policy.
+Coordinate recovery efforts by engaging both internal teams and external stakeholders, including coordination centers, ISPs, system owners involved in the incident, impacted organizations, other CSIRTs, and relevant vendors. Additionally, assess whether a policy is in place to address potential reputational damage.
 
 ------
 
 ## Conclusion
 
-After investigating Oscorp's security posture, I analysed the findings and overlayed them with the NIST CSF 2.0. I utilized relevant security frameworks like MITRE ATT@CK, NIST 800-53, OWASP and others to compile a comprehensive roadmap towards a secure security infrastructure. 
+After investigating Oscorp's security posture, I analyzed the findings and overlaid them with the NIST CSF 2.0. I utilized relevant security frameworks such as MITRE ATT&CK, NIST 800-53, OWASP, and others to compile a comprehensive roadmap toward a secure infrastructure. 
 
